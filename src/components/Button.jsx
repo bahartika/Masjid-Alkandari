@@ -1,11 +1,10 @@
 import React from "react";
 
 const Button = ({ children, onClick, className = "", variant = "primary" }) => {
-  const baseClass = "px-6 py-3 font-semibold rounded-lg shadow";
+  const baseClass = "flex justify-center items-center px-6 py-2 font-semibold rounded-xl shadow-md";
   const variants = {
     primary: "border-2",
-    secondary: "flex gap-2 bg-white text-primaryColor",
-    link: "text-customGreen underline hover:text-green-700",
+    secondary: "gap-2 bg-white text-primaryColor",
   };
 
   return (
