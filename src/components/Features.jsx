@@ -3,7 +3,7 @@ import Fitur1 from "../assets/fitur1.png";
 import Fitur2 from "../assets/fitur2.png";
 import Fitur3 from "../assets/fitur3.png";
 import Fitur4 from "../assets/fitur4.png";
-import Card from "./Card";
+import Card from "./CardFeature";
 
 const Features = () => {
   const featureItems = [
@@ -26,10 +26,10 @@ const Features = () => {
   ];
 
   return (
-    <section className="container mx-auto flex justify-center items-center text-center py-24">
+    <section className="xl:container xl:mx-auto flex justify-center items-center text-center py-24">
       <div>
         <h6 className="text-primaryColor font-bold text-lg">FITUR</h6>
-        <h1 className="text-5xl font-extrabold">Semua Kenyamanan dalam Satu Masjid</h1>
+        <h1 className="text-5xl font-extrabold xl:w-3/5 mx-auto">Semua Kenyamanan dalam Satu Masjid</h1>
         <div className="flex flex-col items-center xl:flex-row gap-6 mt-10">
           {featureItems.map((feature, index) => (
             <Card key={index} image={feature.image} text={feature.text} />
