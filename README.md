@@ -1,3 +1,6 @@
 #Website Masjid Al-Kandari
 
-Ini adalah projek sederhana menggunakan React JS dan Tailwind CSS, masih dalam tahap pengembangan.
+Website ini dibuat menggunakan ReactJS dan TailwindCSS, serta Vite dan PNPM sebagai tools pembuatan website
+Website ini berisikan penjelasan mengenai Masjid Al-kandari itu sendiri, baik kegiatan, lokasi, maupun fitur yang terdapat di masjid.
+
+Jika memerlukan kode ini, anda hanya perlu menginstal PNPM dan menyediakan nodeJS pada perangkat.
