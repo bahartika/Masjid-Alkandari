@@ -15,11 +15,11 @@ const Header = () => {
               Masjid bukan hanya sebagai tempat ibadah yang nyaman, tapi juga jadi tempat berbagai kegiatan, memupuk persaudaraan hingga membangkitkan perekonomian, atau tempat apapun yang berkaitan dengan keumatan.
             </h3>
             <div className="flex justify-center align-center gap-2 flex-col xl:flex-row">
-              <Button onClick={() => alert("Primary Button Clicked!")} className="text-sm">
+              <Button onClick={() => alert("Primary Button Clicked!")} className="hover:-translate-y-1 duration-100">
                 Baca Selengkapnya
               </Button>
-              <Button variant="secondary" className="">
-                <img src={Phone} alt="" className="" />
+              <Button variant="secondary" className="hover:-translate-y-1 duration-100">
+                <img src={Phone} alt="call" />
                 Hubungi Kami
               </Button>
             </div>

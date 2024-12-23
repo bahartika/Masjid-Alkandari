@@ -12,13 +12,13 @@ const Footer = () => {
           <img src={Logo} alt="logo" />
           <p className="my-4 text-sm">Masjid ini memiliki desain arsitektur indah dan fasilitas lengkap. menyediakan lingkungan yang nyaman untuk ibadah dan kegiatan komunitas</p>
           <div className="flex gap-3">
-            <a href="#">
+            <a href="#" className="hover:-translate-y-1 duration-100">
               <img src={Facebook} alt="Link to Facebook" />
             </a>
-            <a href="#">
+            <a href="#" className="hover:-translate-y-1 duration-100">
               <img src={Instagram} alt="Link to Instagram" />
             </a>
-            <a href="#">
+            <a href="#" className="hover:-translate-y-1 duration-100">
               <img src={Tiktok} alt="Link to Tiktok" />
             </a>
           </div>
@@ -27,27 +27,27 @@ const Footer = () => {
           <h3 className="font-extrabold mb-2">Halaman</h3>
           <ul className="text-sm flex flex-col gap-2">
             <li>
-              <a href="#" className="hover:border-b-2 duration-200">
+              <a href="#" className="hover:border-b-2 duration-100">
                 Beranda
               </a>
             </li>
             <li>
-              <a href="#" className="hover:border-b-2 duration-200">
+              <a href="#" className="hover:border-b-2 duration-100">
                 Blog
               </a>
             </li>
             <li>
-              <a href="#" className="hover:border-b-2 duration-200">
+              <a href="#" className="hover:border-b-2 duration-100">
                 Kegiatan
               </a>
             </li>
             <li>
-              <a href="#" className="hover:border-b-2 duration-200">
+              <a href="#" className="hover:border-b-2 duration-100">
                 Tentang
               </a>
             </li>
             <li>
-              <a href="#" className="hover:border-b-2 duration-200">
+              <a href="#" className="hover:border-b-2 duration-100">
                 Kontak
               </a>
             </li>

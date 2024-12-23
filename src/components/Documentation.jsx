@@ -14,15 +14,15 @@ const Documentation = () => {
       <div>
         <h6 className="text-primaryColor font-bold text-lg">FOTO</h6>
         <h1 className=" text-primaryColor text-5xl font-extrabold mx-auto text-center xl:w-3/5">Menjelajahi Keindahan Masjid dari Berbagai Sisi</h1>
-        <div className="grid xl:grid-cols-5 border-2 xl:w-2/3 mx-auto p-4 gap-4">
+        <div className="grid xl:grid-cols-5 xl:w-2/3 mx-auto p-4 gap-4 mt-10">
           <img src={Dokum1} alt="Image 1" className="object-cover rounded-lg shadow-lg col-span-2" />
-          <img src={Dokum2} alt="Image 2" className="object-cover rounded-lg shadow-lg" />
-          <img src={Dokum3} alt="Image 3" className="object-cover rounded-lg shadow-lg" />
-          <img src={Dokum4} alt="Image 4" className="object-cover rounded-lg shadow-lg" />
-          <img src={Dokum5} alt="Image 5" className="object-cover rounded-lg shadow-lg" />
-          <img src={Dokum6} alt="Image 6" className="object-cover rounded-lg shadow-lg" />
-          <img src={Dokum7} alt="Image 7" className="object-cover rounded-lg shadow-lg xl:col-span-2" />
-          <img src={Dokum8} alt="Image 8" className="object-cover rounded-lg shadow-lg" />
+          <img src={Dokum2} alt="Image 2" className="object-cover rounded-lg shadow-lg h-full" />
+          <img src={Dokum3} alt="Image 3" className="object-cover rounded-lg shadow-lg h-full" />
+          <img src={Dokum4} alt="Image 4" className="object-cover rounded-lg shadow-lg h-full" />
+          <img src={Dokum5} alt="Image 5" className="object-cover rounded-lg shadow-lg h-full " />
+          <img src={Dokum6} alt="Image 6" className="object-cover rounded-lg shadow-lg h-full" />
+          <img src={Dokum7} alt="Image 7" className="object-cover rounded-lg shadow-lg xl:col-span-2 h-full xl:h-auto" />
+          <img src={Dokum8} alt="Image 8" className="object-cover rounded-lg shadow-lg h-full w-full xl:w-auto col-span-2 xl:col-auto" />
         </div>
       </div>
     </section>
