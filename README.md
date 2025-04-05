@@ -1,8 +1,33 @@
+# 🌙 Website Masjid Al-Kandari
+
 ![Thumbnail Website](./src/assets/thumbnail.png)
 
-# Website Masjid Al-Kandari
+Website ini dibuat menggunakan **ReactJS**, **TailwindCSS**, serta tools modern seperti **Vite** dan **PNPM**.  
+Website ini berisi informasi mengenai Masjid Al-Kandari, mulai dari kegiatan, lokasi, hingga fitur-fitur yang tersedia di dalamnya.
 
-Website ini dibuat menggunakan ReactJS dan TailwindCSS, serta Vite dan PNPM sebagai tools pembuatan website
-Website ini berisikan penjelasan mengenai Masjid Al-kandari itu sendiri, baik kegiatan, lokasi, maupun fitur yang terdapat di masjid.
+---
 
-Jika memerlukan kode ini, anda hanya perlu menginstal PNPM dan menyediakan nodeJS pada perangkat.
+## 🚀 Fitur Utama
+
+- 🕌 Informasi umum tentang Masjid Al-Kandari
+- 📅 Daftar kegiatan rutin masjid
+- 📍 Peta lokasi interaktif
+- 📸 Galeri kegiatan
+- 📢 Pengumuman & berita terbaru
+- ☎️ Kontak dan sosial media
+
+---
+
+## ⚙️ Cara Menjalankan Proyek
+
+Pastikan perangkat Anda telah menginstal:
+
+- [Node.js](https://nodejs.org/)
+- [PNPM](https://pnpm.io/)
+
+Lalu ikuti langkah berikut:
+
+```bash
+pnpm install       # Menginstal semua dependensi
+pnpm dev           # Menjalankan proyek secara lokal
+```
